@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 const IndexPage = () => {
   return (
-      <Layout pageTitle="Welcome to Inghelbrecht Agency!">
+      <Layout pageTitle="Welcome to Karer Agency!">
       <p>Lorem ipsum</p>
       </Layout>
   )
