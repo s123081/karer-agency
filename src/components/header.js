@@ -1,8 +1,10 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { useStaticQuery, graphql } from 'gatsby'
 
 const Header = ({ siteTitle }) => (
+  
   <header
     style={{
       background: `rebeccapurple`,
@@ -29,6 +31,7 @@ const Header = ({ siteTitle }) => (
       </h1>
     </div>
   </header>
+  
 )
 
 Header.propTypes = {
