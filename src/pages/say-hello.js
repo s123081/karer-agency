@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
 import Greeting from '../components/greeting'
 
 // Renderen van de <Greeting> component
@@ -12,3 +11,5 @@ const SayHello = () => {
       </div>
     )
   }
+
+export default SayHello;

@@ -12,3 +12,5 @@ const NotFoundPage = () => (
 )
 
 export default NotFoundPage
+
+// /voornaam ---> URL
