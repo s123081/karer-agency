@@ -20,6 +20,7 @@ const ArtistsPage = ({
   },
 }) => {
   const image = getImage(artistsPage.headerArtists.picture.localFile)
+
   return (
     <Layout pageTitle="Artists of Karer Agency">
       <GatsbyImage
